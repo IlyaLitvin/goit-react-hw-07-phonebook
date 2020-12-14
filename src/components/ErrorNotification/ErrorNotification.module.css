@@ -1,0 +1,34 @@
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 40px;
+  background-color: rgba(235, 90, 90, 0.801);
+  color: white;
+  font-size: 17px;
+  padding: 20px;
+  text-align: center;
+}
+.text {
+  line-height: 0.5;
+}
+.enter {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 250ms linear;
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+}
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+.exitActive {
+  opacity: 0;
+  transform: translateX(100%);
+}

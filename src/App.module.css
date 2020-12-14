@@ -1,0 +1,13 @@
+.appear {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.appearActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 350ms linear;
+}
+.title {
+  font-size: 25px;
+  color: #162bb1;
+}

@@ -1,0 +1,17 @@
+.contactFormLabel {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 1.7;
+  font-weight: bold;
+  font-size: 22px;
+}
+.appear {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.appearActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 350ms linear;
+}
