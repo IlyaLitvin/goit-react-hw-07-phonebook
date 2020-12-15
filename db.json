@@ -1,44 +1,8 @@
 {
   "contacts": [
-    {
-      "name": "Annie Copeland",
-      "number": "555123",
-      "id": 3
-    },
-    {
-      "name": "Rosie",
-      "number": "123567",
-      "id": 4
-    },
-    {
-      "name": "Rosie Simpson",
-      "number": "",
-      "id": 5
-    },
-    {
-      "name": "Roise",
-      "number": "556677",
-      "id": 6
-    },
-    {
-      "name": "asdasd",
-      "number": "555",
-      "id": 7
-    },
-    {
-      "name": "Rosie 123",
-      "number": "123567",
-      "id": 8
-    },
-    {
-      "name": "Rois",
-      "number": "123",
-      "id": 9
-    },
-    {
-      "name": "hello",
-      "number": "123",
-      "id": 10
-    }
+    { "id": "id-1", "name": "Rosie Simpson", "number": "459-12-56" },
+    { "id": "id-2", "name": "Hermione Kline", "number": "443-89-12" },
+    { "id": "id-3", "name": "Eden Clements", "number": "645-17-79" },
+    { "id": "id-4", "name": "Annie Copeland", "number": "227-91-26" }
   ]
 }
